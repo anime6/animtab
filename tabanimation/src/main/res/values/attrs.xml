@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="KeyPreviewAnimationExtender">
+        <item name="android:windowEnterAnimation">@anim/key_preview_none</item>
+        <item name="android:windowExitAnimation">@anim/key_preview_none_out</item>
+    </style>
+    <style name="KeyPreviewAnimationExtend">
+        <item name="android:windowEnterAnimation">@anim/key_preview_extend_in</item>
+        <item name="android:windowExitAnimation">@anim/key_preview_extend_out</item>
+    </style>
+
+    <style name="KeyPreviewAnimationScale">
+        <item name="android:windowEnterAnimation">@anim/key_preview_scale_in</item>
+        <item name="android:windowExitAnimation">@anim/key_preview_scale_out</item>
+    </style>
+
+    <style name="KeyPreviewAnimationAppear">
+        <item name="android:windowEnterAnimation">@anim/key_preview_appear_in</item>
+        <item name="android:windowExitAnimation">@anim/key_preview_appear_out</item>
+    </style>
+</resources>
